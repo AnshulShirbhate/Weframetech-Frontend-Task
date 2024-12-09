@@ -17,18 +17,18 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Infos Pratiques Section */}
+        {/* Links Section */}
         <div className="text-center md:text-left">
           <h4 className="font-semibold mb-2">INFOS PRATIQUES</h4>
           <ul className="text-gray-600 space-y-1 text-sm">
             <li>À propos</li>
             <li>Livraisons & Reprises</li>
-            <li>Mode d'emploi</li>
+            <li>Mode d&apos;emploi</li>
             <li>F.A.Q</li>
           </ul>
         </div>
 
-        {/* Legal Section */}
+        {/* Legal Links Section */}
         <div className="text-center md:text-left">
           <h4 className="font-semibold mb-2">LÉGAL</h4>
           <ul className="text-gray-600 space-y-1 text-sm">
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Mon Compte Section */}
+        {/* Third Column for Links Section */}
         <div className="text-center md:text-left">
           <h4 className="font-semibold mb-2">MON COMPTE</h4>
           <ul className="text-gray-600 space-y-1 text-sm">

@@ -4,23 +4,15 @@ import React from "react";
 const Services: React.FC = () => {
   const services = [
     {
-      title: "Livraison & Reprise",
-      description: "Selon vos besoins",
       image: "/servicesimages/package.png",
     },
     {
-      title: "Nettoyage",
-      description: "Selon vos besoins",
       image: "/servicesimages/food.png",
     },
     {
-      title: "Commande Illimitée",
-      description: "Tout est possible",
       image: "/servicesimages/cart.png",
     },
     {
-      title: "Transport & Enlèvement",
-      description: "On s’occupe de tout.",
       image: "/servicesimages/truck.png",
     },
   ];
@@ -41,7 +33,7 @@ const Services: React.FC = () => {
           >
             <Image
               src={service.image}
-              alt={service.title}
+              alt={service.image}
               height={150}
               width={150}
               className="h-32 w-32 object-contain"

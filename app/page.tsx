@@ -1,6 +1,5 @@
 import MainPage from "@/components/main";
 import FirstCarousel from "@/components/firstcarousel";
-import Image from "next/image";
 import SecondCarousel from "@/components/secondcarousel";
 import Services from "@/components/services";
 import Subscribe from "@/components/subscribe";

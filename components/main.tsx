@@ -92,7 +92,6 @@ const MainPage: React.FC = () => {
             <span>900W</span>
           </p>
 
-          {/* Quantity Selector */}
           <div className="flex items-center space-x-4 mb-4">
             <span className="flex">
                 <button className="border-t border-l border-b border-gray-300 px-2 py-1">-</button>
@@ -113,10 +112,10 @@ const MainPage: React.FC = () => {
             Description produit
           </h2>
           <p className="text-sm text-gray-600 mb-4">
-            Esti vous propose à la location un/une &quot;Jewel – grand
+            Esti vous propose à la location un/une &quot;Jewel  grand
             couteau/10pc&quot; pour votre événement et ce dès 0,35 € / pièce
-            (HTVA). Que ce soit pour votre mariage, une fête d’anniversaire ou
-            du personnel, ce produit a fait l’objet d’une sélection rigoureuse
+            (HTVA). Que ce soit pour votre mariage, une fête d&apos;anniversaire ou
+            du personnel, ce produit a fait l&apos;objet d&apos;une sélection rigoureuse
             par notre équipe.
           </p>
         </div>
