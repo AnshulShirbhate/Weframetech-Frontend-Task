@@ -56,7 +56,7 @@ const products: Product[] = [
   }
 ]
 
-export default function FirstCarousel() {
+export default function SecondCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const next = () => {
@@ -68,18 +68,18 @@ export default function FirstCarousel() {
   }
 
   return (
-    <div className="relative w-full px-4 py-10 bg-stone-50">
-      <h2 className="text-2xl font-semibold mb-6 ml-5">Articles similaires</h2>
+    <div className="relative w-full px-4 py-10 mt-5 mb-10">
+      <h2 className="text-2xl font-semibold mb-6">Ces produits pourraient vous intéresser</h2>
       
       <div className="relative overflow-hidden">
         <div 
-          className="flex transition-transform duration-300 ease-in-out"
+          className="flex transition-transform duration-300 ease-in-out "
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {products.map((product) => (
             <div 
               key={product.id}
-              className="px-4 grid min-w-fit mx-auto"
+              className="px-4 md:min-w-[33.33%] min-w-full"
             >
               <div className="relative p-4 bg-stone-100">
                 <button className="absolute top-4 left-4 z-10">
@@ -94,7 +94,7 @@ export default function FirstCarousel() {
                     width={1000}
                     src={product.image}
                     alt={product.title}
-                    className="w-full aspect-[4/3] object-contain"
+                    className="w-full aspect-[3/2] md:aspect-[4/3] object-contain"
                   />
                 </div>
                 
@@ -103,7 +103,7 @@ export default function FirstCarousel() {
                     <h3 className="text-xl font-normal">{product.title}</h3>
                     <span className="text-xl">{product.price}€</span>
                   </div>
-                  <div className="flex justify-between items-center text-xs text-gray-500 ">
+                  <div className="flex justify-between items-center text-xs text-gray-500">
                     <span>{product.pricePerPiece}€/Pièce - REF : VABGN5</span>
                     <span className='bg-gray-200 p-1 rounded-md'>{product.pieces} pièces</span>
                   </div>

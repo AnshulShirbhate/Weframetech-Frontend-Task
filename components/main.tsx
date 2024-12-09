@@ -77,7 +77,7 @@ const MainPage: React.FC = () => {
             </span>
           </div>
 
-          <p className="text-sm text-gray-600 mb-4 md:border-b md:mb-72">
+          <p className="text-sm text-gray-600 mb-4 md:border-b md:pb-64">
             Location appareil à raclette - Raclette traditionnelle 1/2 roue
             <br />
             Réglable en hauteur
@@ -87,8 +87,9 @@ const MainPage: React.FC = () => {
             Boîtier de chauffe horizontal réglable en hauteur
             <br />
             <br />
-            <p>220V</p>
-            <p>900W</p>
+            <span>220V</span>
+            <br />
+            <span>900W</span>
           </p>
 
           {/* Quantity Selector */}
@@ -122,14 +123,14 @@ const MainPage: React.FC = () => {
 
         {/* Tabs */}
         <div className="">
-          <button className="bg-amber-50 w-full p-4 text-left flex justify-between">
+          <button className="bg-stone-50 w-full p-4 text-left flex justify-between">
             <span>LIVRAISONS</span>
             <span>
               <Plus />
             </span>
           </button>
 
-          <button className=" bg-amber-50 w-full p-4 text-left flex justify-between">
+          <button className=" bg-stone-50 w-full p-4 text-left flex justify-between">
             <span>QUESTIONS </span>
             <span>
               <Plus />
