@@ -49,7 +49,7 @@ const MainPage: React.FC = () => {
             <Image
               src="/mainimages/product.png"
               alt="Main Product"
-              className="lg:w-auto lg:h-auto md:h-2/5 md:w-2/5 h-3/5 w-3/5 border border-gray-300 bg-inherit"
+              className="lg:w-3/5 lg:h-4/6 md:h-2/5 md:w-2/5 h-3/5 w-3/5 border border-gray-300 bg-inherit"
               height={800}
               width={800}
             />
